@@ -19,17 +19,12 @@ public class Main extends AnnabellePanel{
 				walls.add(new Rect(x*50,y*50,50));
 			}
 		}
-//		walls.add(new Rect(500,450,50));
-//		walls.add(new Rect(500,500,50));
-//		walls.add(new Rect(450,450,50));
-//		walls.add(new Rect(450,500,50));
 	}
 	static ArrayList<Rect> walls = new ArrayList<Rect>();
 	int pwidth=50;
 	Rect player=new Rect(500,500,50);
 	public void paint(Graphics g){
 		movement();
-		
 		BufferedImage mask = new BufferedImage(Screen.width, Screen.height, BufferedImage.BITMASK);
 		Graphics g1=mask.getGraphics();
 		raycasting(g1,200);

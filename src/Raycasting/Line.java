@@ -8,5 +8,4 @@ public class Line {
 		endx=k;
 		endy=l;
 	}
-
 }

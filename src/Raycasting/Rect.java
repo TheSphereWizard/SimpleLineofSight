@@ -34,7 +34,6 @@ public class Rect {
 		
 		//q is rect start
 		//s is rect end-start
-		//Need to do each of 4 line segments
 		int[] q1= new int[] {lowx,lowy};
 		int[] s1 = new int[] {highx-lowx+1, 0};
 		r = new int[] {l.endx-l.startx,l.endy-l.starty};
